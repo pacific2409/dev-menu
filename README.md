@@ -55,6 +55,8 @@ DevMenuでは、Codex Agentを単一の実装担当として扱うのではな�
 
 GitHub上のDevMenu各Repositoryは、完成した成果物をポートフォリオとして参照できるように作成した公開用Snapshotです。実EnvironmentのCredential、識別値、内部Runbook、Evidence、Handover、作業履歴およびGit履歴は公開対象に含めていません。
 
+![DevMenu GitLab Activity](gitlab_activity.png)
+
 ## Publication and License
 
 - 公開Repositoryだけで実Environmentを再現・運用できることは保証しません。
