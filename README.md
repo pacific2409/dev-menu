@@ -10,6 +10,7 @@ DevMenuは、学びたい技術、難易度、使える時間および目的を�
 「試したい技術はあるが、具体的に何を作れば学習や検証につながるか決めにくい」という状態から、実際に取り組める課題へ進めることを目的としています。生成された提案と入力条件は共有履歴へ保存され、利用者は保存済みの技術名から過去の提案を再発見できます。
 
 - **URL**: [https://dev-menu.sylluvium.com/](https://dev-menu.sylluvium.com/)
+- ※ドメイン名の由来については[domain-etymology.md](domain-etymology.md])に記載
 
 > [!IMPORTANT]
 > 現在はサーバーを停止しているため、上記URLにはアクセスできません。Applicationの画面と利用Flowは、以下のUI Guideおよび各Public Repositoryから確認できます。
