@@ -9,6 +9,11 @@ DevMenuは、学びたい技術、難易度、使える時間および目的を�
 
 「試したい技術はあるが、具体的に何を作れば学習や検証につながるか決めにくい」という状態から、実際に取り組める課題へ進めることを目的としています。生成された提案と入力条件は共有履歴へ保存され、利用者は保存済みの技術名から過去の提案を再発見できます。
 
+- **URL**: [https://dev-menu.sylluvium.com/](https://dev-menu.sylluvium.com/)
+
+> [!IMPORTANT]
+> 現在はサーバーを停止しているため、上記URLにはアクセスできません。Applicationの画面と利用Flowは、以下のUI Guideおよび各Public Repositoryから確認できます。
+
 ### Main Experience
 
 1. 学びたい技術、難易度、所要時間、目的および任意の意向を入力する。
@@ -17,6 +22,26 @@ DevMenuは、学びたい技術、難易度、使える時間および目的を�
 4. 技術名を起点に過去の提案を一覧・詳細画面から再発見する。
 
 Initial Implementationでは、要求定義、機能・Architecture・詳細設計、Infrastructure、Database、Backend、Frontend、Integration Test、Production ReleaseおよびProduction Verificationまでを一つのTrainとして実施しました。
+
+## UI Guide
+
+### 1. 課題を注文する
+
+学びたい技術、難易度、取り組める時間、目的および任意の希望を入力して注文します。成立した応答では、入力した生成条件とともに3件の課題が表示され、各課題の概要、達成目標、学ぶポイントまたは検証するポイントを比較できます。
+
+![課題の注文条件と3件の提案結果を表示するDevMenuの画面](dev-menu_proposal_ui.png)
+
+### 2. 技術から共有履歴を探す
+
+共有履歴では、保存済みの技術を選択し、その技術に関連する過去の提案を確認できます。一覧には保存日時、難易度、取り組む時間および目的が表示され、確認したい履歴を選択できます。
+
+![選択した技術に関連する共有履歴を一覧表示するDevMenuの画面](dev-menu_historys_by_technology_ui.png)
+
+### 3. 共有履歴の詳細を確認する
+
+共有履歴の詳細では、保存された生成条件と3件の提案内容を確認できます。各提案の概要、達成目標、学ぶポイントまたは検証するポイントを読み返し、共有履歴へ戻るか、新しい課題を注文できます。
+
+![保存された生成条件と3件の提案を表示する共有履歴詳細画面](dev-menu_history_detail_ui.png)
 
 ## System Architecture
 
