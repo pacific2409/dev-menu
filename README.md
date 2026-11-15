@@ -96,7 +96,7 @@ GitHub上のDevMenu各Repositoryは、完成した成果物をポートフォリ
 | [実践Claude Code入門―現場で活用するためのAIコーディングの思考法](https://www.amazon.co.jp/dp/B0G4NVX1NF?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | まさに虎の巻でした。本書や添付のサンプルを熟読し、こちらを自分なりに拡張する形で今回の開発基盤を構成しました。 |
 | [ストーリーで覚えるCodex CLI入門: AIコーディングエージェントとの協働開発入門 物語で覚える開発入門](https://www.amazon.co.jp/gp/product/B0DR9WRCNJ/ref=ku_mi_rw_edp_ku) | こちらの内容などからClaude CodeとCodexの仕様の差を補完しました。 |
 
-### About Generative API
+### About Generative AI API
 | Title | Notes |
 | --- | --- |
 | [全容解説GPT テキスト生成AIプロダクト構築への第一歩](https://www.amazon.co.jp/dp/B0CPSQK4J1?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | GPTという概念について解像度が上がりました。 |
@@ -105,7 +105,7 @@ GitHub上のDevMenu各Repositoryは、完成した成果物をポートフォリ
 | [Amazon Bedrock 生成AIアプリ開発入門](https://www.amazon.co.jp/dp/B0CY28Z13G?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | AWSとの連携についてはこちらからイメージをつけました。また今後はシリーズの他の書籍に触れRagやAgentCoreにも挑戦していきたいです。 |
 | [LLMの原理、RAG・エージェント開発から読み解く　コンテキストエンジニアリング](https://www.amazon.co.jp/dp/B0GH75V1JL?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | LLMの根本の仕組みから用法へと展開する重厚な内容で、LLMに向き合う姿勢についてのコンパスとして捉えております。 |
 
-### AWS
+### About AWS
 | Title | Notes |
 | --- | --- |
 | [図解 Amazon Web Servicesの仕組みとサービスがたった1日でよくわかる](https://www.amazon.co.jp/dp/B09MQ14XR1) | AWSの導入や各サービスの概要を掴むにはこれ以外ないと思えるほど読みやすく、かつ、費用面も記載があるので、勉強になりました。 |
@@ -114,7 +114,7 @@ GitHub上のDevMenu各Repositoryは、完成した成果物をポートフォリ
 | [AWSコンテナ設計・構築［本格］入門](https://www.amazon.co.jp/dp/B09DKZC1ZH) | AWSにおける運用も見越したコンテナの実践的な設計観点について大変勉強になりました。パイプラインにはこちらで得た知見を取り入れています。 | 
 | [Kubernetes on AWS～アプリケーションエンジニア 本番環境へ備える](https://www.amazon.co.jp/dp/B087PTX51W) | EKSの構築や操作・運用について網羅的に確認しました。 |
 
-### IaC(Terraform)
+### About IaC(Terraform)
 | Title | Notes |
 | --- | --- |
 | [実践Terraform　AWSにおけるシステム設計とベストプラクティス](https://www.amazon.co.jp/dp/B07XT7LJLC) | 情報量や網羅性も読みやすさも非常に良く、体系的に学べ、レファレンスとしても活用しました。 |
@@ -122,7 +122,7 @@ GitHub上のDevMenu各Repositoryは、完成した成果物をポートフォリ
 | [AWSとTerraformで学ぶプロダクションレディなKubernetes](https://www.amazon.co.jp/dp/B08ZBZCMX7) | こちらはEKSについてAWSの公開モジュールを使う手法で非常に実践的な記述があり、大いに参考にしました。 |
 | [Terragrunt徹底活用ガイド](https://www.amazon.co.jp/dp/B0F9WP48WG) | コンパクトに文法やterraformの何を解決するのかが記載されており、わかりやすい内容でした。 |
 
-### Other(Git/Container/Orchestration/Pipeline)
+### About Other(Git/Container/Orchestration/Pipeline)
 下記いずれも開発開始時点で既読ではありましたが、各分野の参考書として都度見返しております。
 
 | Title |
