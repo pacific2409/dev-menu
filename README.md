@@ -62,3 +62,52 @@ GitHub上のDevMenu各Repositoryは、完成した成果物をポートフォリ
 - 公開Repositoryだけで実Environmentを再現・運用できることは保証しません。
 - Example値を実値へ置き換えるだけで、安全なDeploymentが成立することは保証しません。
 - 公開SnapshotにはLicenseを付与していません。著作権法上認められる範囲を超える利用、複製または再配布の許諾を意味しません。
+
+## References
+### About Coding Agent
+| Title | Notes |
+| --- | --- |
+| [実践Claude Code入門―現場で活用するためのAIコーディングの思考法](https://www.amazon.co.jp/dp/B0G4NVX1NF?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | まさに虎の巻でした。本書や添付のサンプルを熟読し、こちらを自分なりに拡張する形で今回の開発基盤を構成しました。 |
+| [ストーリーで覚えるCodex CLI入門: AIコーディングエージェントとの協働開発入門 物語で覚える開発入門](https://www.amazon.co.jp/gp/product/B0DR9WRCNJ/ref=ku_mi_rw_edp_ku) | こちらの内容などからClaude CodeとCodexの仕様の差を補完しました。 |
+
+### About Generative API
+| Title | Notes |
+| --- | --- |
+| [全容解説GPT テキスト生成AIプロダクト構築への第一歩](https://www.amazon.co.jp/dp/B0CPSQK4J1?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | GPTという概念について解像度が上がりました。 |
+| [ChatGPT API×Pythonで始める対話型AI実装入門](https://www.amazon.co.jp/gp/product/B0CLKS7QHV/ref=ku_mi_rw_edp_ku) | GPTのパラメータやAPIの用法について理解できました。 |
+| [PythonとAI　AI英会話練習アプリを自作する完全ガイド](https://www.amazon.co.jp/dp/B0H92H6W3H?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | プロダクトのアイデアが素晴らしく、どのようにコントロールできる形で生成AIアプリケーションに落とし込んでいくかという点非常に参考になり、DevMenuのアイデアもこちらから大いにインスピレーションをいただいています。 |
+| [Amazon Bedrock 生成AIアプリ開発入門](https://www.amazon.co.jp/dp/B0CY28Z13G?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | AWSとの連携についてはこちらからイメージをつけました。また今後はシリーズの他の書籍に触れRagやAgentCoreにも挑戦していきたいです。 |
+| [LLMの原理、RAG・エージェント開発から読み解く　コンテキストエンジニアリング](https://www.amazon.co.jp/dp/B0GH75V1JL?ref=ppx_yo2ov_dt_b_fed_digi_asin_title_351) | LLMの根本の仕組みから用法へと展開する重厚な内容で、LLMに向き合う姿勢についてのコンパスとして捉えております。 |
+
+### AWS
+| Title | Notes |
+| --- | --- |
+| [図解 Amazon Web Servicesの仕組みとサービスがたった1日でよくわかる](https://www.amazon.co.jp/dp/B09MQ14XR1) | AWSの導入や各サービスの概要を掴むにはこれ以外ないと思えるほど読みやすく、かつ、費用面も記載があるので、勉強になりました。 |
+| [AWSネットワーク入門 第2版 impress top gearシリーズ](https://www.amazon.co.jp/gp/product/B0BH7VT8P7/ref=ku_mi_rw_edp_ku) | 非常に読みやすく、AWSについてどういった経路をたどってリクエストが届くのかという構造的なイメージが掴めました。 |
+| [SpringBootで学ぶAWS開発入門: 後悔しないための入門書：基礎から学べるAWS開発](https://www.amazon.co.jp/gp/product/B0BFPS3WKG/ref=ku_mi_rw_edp_ku) | AWS環境の中でどうアプリケーションが動くのか、そのためにどう実装するのかについて非常に実践的に記載されており、解像度が大いに上がりました。 |
+| [AWSコンテナ設計・構築［本格］入門](https://www.amazon.co.jp/dp/B09DKZC1ZH) | AWSにおける運用も見越したコンテナの実践的な設計観点について大変勉強になりました。パイプラインにはこちらで得た知見を取り入れています。 | 
+| [Kubernetes on AWS～アプリケーションエンジニア 本番環境へ備える](https://www.amazon.co.jp/dp/B087PTX51W) | EKSの構築や操作・運用について網羅的に確認しました。 |
+
+### IaC(Terraform)
+| Title | Notes |
+| --- | --- |
+| [実践Terraform　AWSにおけるシステム設計とベストプラクティス](https://www.amazon.co.jp/dp/B07XT7LJLC) | 情報量や網羅性も読みやすさも非常に良く、体系的に学べ、レファレンスとしても活用しました。 |
+| [TerraformでFargateを構築してGitHub Actionsでデプロイ！Laravel編](https://www.amazon.co.jp/dp/B09GFB67X1) | こちらはより実践やハンズオンの特長が強く、すばやくイメージを掴みやすい内容でした。Fargateについて特に参考にしました。 |
+| [AWSとTerraformで学ぶプロダクションレディなKubernetes](https://www.amazon.co.jp/dp/B08ZBZCMX7) | こちらはEKSについてAWSの公開モジュールを使う手法で非常に実践的な記述があり、大いに参考にしました。 |
+| [Terragrunt徹底活用ガイド](https://www.amazon.co.jp/dp/B0F9WP48WG) | コンパクトに文法やterraformの何を解決するのかが記載されており、わかりやすい内容でした。 |
+
+### Other(Git/Container/Orchestration/Pipeline)
+下記いずれも開発開始時点で既読ではありましたが、各分野の参考書として都度見返しております。
+
+| Title |
+| --- |
+| [Pro Git](https://progit-ja.github.io/#download) |
+| [仕組みと使い方がわかる Docker＆Kubernetesのきほんのきほん](https://www.amazon.co.jp/dp/B08T961HKP) |
+| [Kubernetes完全ガイド 第2版 impress top gearシリーズ](https://www.amazon.co.jp/dp/B08FZX8PYW) |
+| [Kubernetesマイクロサービス開発の実践 impress top gearシリーズ](https://www.amazon.co.jp/dp/B0CPLR674N) |
+| [実践Helm─自作アプリをKubernetesクラスタに簡単デプロイ！](https://www.amazon.co.jp/dp/B07TQT6SVY) |
+| [GitLab実践ガイド impress top gearシリーズ](https://www.amazon.co.jp/dp/B079DL362C) |
+
+
+
+
