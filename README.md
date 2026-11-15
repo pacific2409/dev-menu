@@ -33,7 +33,7 @@ DevMenuは、ReactによるSingle Page Application、Jakarta EEによるModular 
 | Database State Management | Environment別Schema、Account、GrantおよびTable DDLをVersion管理するDatabase Module | MySQL 8.4 LTS、SQL、SQLFluff、Amazon RDS for MySQL、AWS Secrets Manager、AWS Systems Manager Port Forwarding | [dev-menu-database-state-management-public](https://github.com/pacific2409/dev-menu-database-state-management-public) |
 | Proposal Service | 課題提案、Amazon Bedrock連携、共有履歴およびHealth Endpointを提供するBackend Module | Java 21、Maven、Jakarta EE 11、MicroProfile、Payara Micro 7、AWS SDK for Java 2、EclipseLink、MySQL Connector/J、Log4j 2、JUnit 5、Docker、Kubernetes / Kustomize、GitLab CI/CD | [dev-menu-proposal-service-public](https://github.com/pacific2409/dev-menu-proposal-service-public) |
 | Web Frontend | 課題注文・提案結果・共有履歴を提供するBrowser向けSingle Page Application | Node.js 24、React 19、React Router 7、TypeScript 6、Vite 8、Vitest 5、Testing Library、Playwright 1.64、OpenAPI TypeScript、Nginx、Docker、Kubernetes / Kustomize、GitLab CI/CD | [dev-menu-web-public](https://github.com/pacific2409/dev-menu-web-public) |
-| Codex Project Template | DevMenu開発で使用した、Codex Agentによる仕様策定・実装・Review・Release管理のProject基盤 | Codex、AGENTS.md、Flow / Work Skills、Manager / Executor責務分離、Steering、Dev Container、Ubuntu 26.04、GitHub / GitLab CLI、AWS CLI、Terraform / Terragrunt、Docker、Java、Python、Node.js、Go、Kubernetes / Helm | [project-template](https://github.com/pacific2409/project-template) |
+| Codex Project Template | DevMenu開発で使用した、Codex Agentによる仕様策定・実装・Review・Release管理のProject基盤 | Codex、AGENTS.md、Flow / Work Skills、Manager / Executor責務分離、Steering、Review用Subagent（Document Reviewer / Spec Comparator）、Explorer Subagent、Dev Container | [project-template](https://github.com/pacific2409/project-template) |
 
 ## Development Approach
 
